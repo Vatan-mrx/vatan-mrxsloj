@@ -1,0 +1,217 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #bfbfbf;
+    box-shadow: 0 0 3px #dbdbdb;
+    padding-top: 6px;
+}
+
+.header .wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.header .header_left {
+    align-self: center;
+}
+
+.header .header_right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header #topmenu {
+    color: #8e8e8e;
+    padding-top: 8px;
+}
+
+.header #topmenu a {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+.header #topmenu a:hover {
+    color: #dd5555;
+}
+
+#socials {
+    display: flex;
+    margin-left: 20px;
+}
+
+#socials a {
+    margin-top: 9px;
+    margin-right: 17px;
+}
+
+#socials .twitter {
+    background: url("../images/twitter.png") no-repeat;
+    height: 11px;
+    width: 13px;
+}
+
+#socials .twitter:hover {
+    background-position: -13px;
+}
+
+#socials .vimeo {
+    background: url("../images/vimeo.png") no-repeat;
+    height: 11px;
+    width: 13px;
+}
+
+#socials .vimeo:hover {
+    background-position: -13px;
+}
+
+#socials .facebook {
+    background: url("../images/facebook.png") no-repeat;
+    height: 13px;
+    width: 7px;
+}
+
+#socials .facebook:hover {
+    background-position: -7px;
+}
+
+#socials .instagram {
+    background: url("../images/instagram.png") no-repeat;
+    height: 12px;
+    width: 12px;
+}
+
+#socials .instagram:hover {
+    background-position: -12px;
+}
+
+#socials .dribbble {
+    background: url("../images/dribbble.png") no-repeat;
+    height: 13px;
+    width: 13px;
+}
+
+#socials .dribbble:hover {
+    background-position: -13px;
+}
+
+#socials .reddit {
+    background: url("../images/reddit.png") no-repeat;
+    height: 12px;
+    width: 13px;
+}
+
+#socials .reddit:hover {
+    background-position: -13px;
+}
+
+#content {
+    background-color: #e9e9e9;
+    padding: 20px 0;
+}
+
+#content .wrap {
+    padding: 0 15px;
+}
+
+#content .wrap nav {
+    border-bottom: 1px solid #bfbfbf;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .wrap #menu > ul {
+    display: flex;
+}
+
+#content .wrap #menu ul li {
+    margin-right: 20px;
+}
+
+#content .wrap #menu ul a {
+    color: #3f3f3f;
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+#content .wrap #menu ul a:hover {
+    border-bottom: 1px solid #dd5555;
+    color: #dd5555;
+    padding-bottom: 14px;
+}
+    
+#content .wrap #menu ul .submenu {
+    position: relative;
+}
+
+#content .wrap #menu ul .submenu > a {
+    background: url("../images/triangle.png") no-repeat right 20%;
+    padding-right: 10px;
+}
+
+#content .wrap #menu ul .submenu:hover ul {
+    display: block;
+}
+
+#content .wrap #menu ul .submenu ul {
+    background-color: #f9f9f9;
+    border: 1px solid #bfbfbf;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #dadada;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 200px;
+    z-index: 10;
+}
+
+#content .wrap #menu ul .submenu ul li {
+    margin-right: 0;
+}
+
+#content .wrap #menu ul .submenu ul a {
+    display: block;
+    font-weight: normal;
+    padding: 15px;
+}
+
+#content .wrap #menu ul .submenu ul a:hover {
+    background-color: #dd5555;
+    color: #fff;
+}
+
+.search {
+    margin-top: -10px;
+    position: relative;
+}
+
+.search input[type="text"] {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #555;
+    margin-right: -30px;
+    padding: 7px 0 7px 7px;
+    width: 150px;
+}
+
+.search input[type="image"] {
+	margin-bottom: -3px
+}

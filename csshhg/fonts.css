@@ -1,0 +1,9 @@
+@font-face {
+	font-family: rsr;
+	background: url("../fonts/RobotoSlab-Regular.woff") format("woff"), url("../fonts/RobotoSlab-Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: rsl;
+	background: url("../fonts/RobotoSlab-Light.woff") format("woff"), url("../fonts/RobotoSlab-light.woff2") format("woff2");
+}
